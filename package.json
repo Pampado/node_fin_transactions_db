@@ -4,7 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc ts-node-dev ./node_modules/typeorm/cli.js",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
     "start": "ts-node src/index.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
@@ -22,11 +22,11 @@
     "pg": "^8.0.0",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.2.24",
-    "ts-node": "3.3.0",
-    "uuidv4": "^6.0.7",
-    "typescript": "^3.8.3"
+    "uuidv4": "^6.0.7"
   },
   "devDependencies": {
+    "ts-node": "3.3.0",
+    "typescript": "^3.8.3",
     "@types/express": "4.17.3",
     "@types/express-serve-static-core": "4.17.2",
     "@types/jest": "^25.2.1",
