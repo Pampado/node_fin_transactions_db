@@ -1,12 +1,11 @@
 .idea/
 .vscode/
 node_modules/
-build/
 temp/
 __tests__/
 dist/
 
 tmp/*
 !tmp/.gitkeep
-.env
+*.env
 .env.*
