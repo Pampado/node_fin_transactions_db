@@ -8,7 +8,7 @@ export default async (name = 'default'): Promise<Connection> => {
       name,
       type: 'postgres',
       host: process.env.PG_HOST,
-      port: process.env.PORT,
+      port: process.env.PORT_PG,
       username: process.env.USERNAME,
       password: process.env.PASSWORD,
       database: process.env.DATABASE,

@@ -1,7 +1,7 @@
 {
-  "name": "desafio-06",
+  "name": "nodefintransactions",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/server.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
