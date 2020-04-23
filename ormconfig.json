@@ -1,7 +1,5 @@
 {
   "type": "postgres",
-  "port": 5432,
-  "database": "d9lcpr0o2hclgr",
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
