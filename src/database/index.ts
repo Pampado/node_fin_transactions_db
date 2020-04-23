@@ -6,7 +6,6 @@ export default async (name = 'default'): Promise<Connection> => {
   return createConnection(
     Object.assign(defaultOptions, {
       name,
-      type: 'postgres',
       host: process.env.PG_HOST,
       port: process.env.PORT_PG,
       username: process.env.USERNAME,
