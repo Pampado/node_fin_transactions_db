@@ -4,7 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc typeorm",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
     "start": "src/index.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
