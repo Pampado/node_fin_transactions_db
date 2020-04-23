@@ -7,6 +7,7 @@
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
     "start": "ts-node src/index.ts",
+    "publicServer": "ts-node src/index.ts --host 0.0.0.0 --port 3333",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "test": "cross-env NODE_ENV=test jest"
   },
