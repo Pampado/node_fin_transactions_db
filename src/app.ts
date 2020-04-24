@@ -42,6 +42,6 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
 })
 const httpsServer = https.createServer(credentials, app)
 export default httpsServer
-// export const httpServer = http.createServer(app)
+export const httpServer = http.createServer(app)
 
 // export default app
