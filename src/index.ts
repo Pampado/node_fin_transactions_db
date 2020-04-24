@@ -1,6 +1,8 @@
-import app, { httpServer, httpsServer } from './app'
+import { httpServer, httpsServer } from './app'
 
-httpServer.listen(3334)
+httpServer.listen(3334, () => {
+  console.log(`Server running on PORT ${process.env.PORT}`)
+})
 httpsServer.listen(process.env.PORT, () => {
   console.log(`Server running on PORT ${process.env.PORT}`)
 })
