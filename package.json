@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
-    "start": "ts-node ./src/index.ts",
+    "start": "ts-node /src/index.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "test": "cross-env NODE_ENV=test jest"
   },
@@ -39,13 +39,13 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.1",
-    "eslint-import-resolver-typescript": "^2.0.0"he,
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.3.0",
     "prettier": "^2.0.4",
     "supertest": "^4.0.2",
     "ts-jest": "^25.3.1",
-    "ts-node-dev": "^1.0.0-pre.44",
+    "ts-node-dev": "^1.0.0-pre.44"
   }
 }
