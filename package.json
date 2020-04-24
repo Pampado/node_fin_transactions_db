@@ -1,12 +1,12 @@
 {
   "name": "nodefintransactions",
   "version": "1.0.0",
-  "main": "/src/index.ts",
+  "main": "index.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/index.ts",
-    "start": "ts-node /src/index.ts",
+    "start": "ts-node index.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "test": "cross-env NODE_ENV=test jest"
   },
