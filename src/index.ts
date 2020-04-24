@@ -1,10 +1,10 @@
-import * as Sentry from '@sentry/node'
+// import * as Sentry from '@sentry/node'
 import httpsServer from './app'
 
-Sentry.init({
-  dsn:
-    'https://d003d408147a45019cd8d0167188f6df@o382649.ingest.sentry.io/5211849',
-})
+// Sentry.init({
+//   dsn:
+//     'https://d003d408147a45019cd8d0167188f6df@o382649.ingest.sentry.io/5211849',
+// })
 
 // app.listen(process.env.PORT, () => {
 //   console.log(`Server running on PORT ${process.env.PORT}`)
